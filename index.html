@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Convert RGB color codes to HEX HTML format for use in web design and CSS. Also converts RGBA to HEX."
+    />
+    <meta name="keywords" content="rgb,rgba,hex,color,html,css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RGB to HEX Color</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h2 class="title">RGB to HEX Color</h2>
+
+    <div id="inputs">
+      <input
+        type="number"
+        id="rInput"
+        min="0"
+        max="255"
+        value="207"
+        placeholder="0 - 255"
+      />
+      <input
+        type="number"
+        id="gInput"
+        min="0"
+        max="255"
+        value="92"
+        placeholder="0 - 255"
+      />
+      <input
+        type="number"
+        id="bInput"
+        min="0"
+        max="255"
+        value="63"
+        placeholder="0 - 255"
+      />
+    </div>
+
+    <div id="boxColor">
+      <h3>hex: #<span id="hexColor">CF5C3F</span></h3>
+      <button id="copyBtn">Copy</button>
+    </div>
+
+    <div class="howItsWork">
+      <h3>What does this RGB to Hex converter do?</h3>
+
+      <p>
+        It takes input in the form of values for Red, Green and Blue ranging
+        from 0 to 255 and then converts those values to a hexadecimal string
+        that can be used to specify color in html/css code. Photo editing
+        software usually represents color in RGB and therefore if you would like
+        to use the colors you use in your photo editing software as the
+        background of your html element then you will have to get the
+        hexadecimal representation of the RGB values. This tool allows you to
+        get those values.
+      </p>
+    </div>
+
+    <div class="howItsWork">
+      <h3>Convert a Hex value to RGB</h3>
+
+      <p>
+        Perhaps you have seen a hex code on a web page and would like to use
+        that color in your photo editing software. In that case you will need
+        the RGB values if your photo editing software does not support hex
+        values.
+      </p>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
