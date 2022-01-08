@@ -1,5 +1,9 @@
 # RGB to HEX Color
 
+[RGB to HEX Color App](https://saulgavrilov.github.io/rgb-to-hex-color/)
+
+> To Generate random color just click on "RGB to HEX Color"
+
 ### What does this RGB to Hex converter do?
 
 It takes input in the form of values for Red, Green and Blue ranging from 0 to 255 and then converts those values to a hexadecimal string that can be used to specify color in html/css code. Photo editing software usually represents color in RGB and therefore if you would like to use the colors you use in your photo editing software as the background of your html element then you will have to get the hexadecimal representation of the RGB values. This tool allows you to get those values.
