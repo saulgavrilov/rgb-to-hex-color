@@ -92,6 +92,7 @@ const randomColor = () => {
   checker(nColor);
 };
 
+// Generating new color when user clicked on the title
 title.addEventListener("click", randomColor);
 
 randomColor();

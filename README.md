@@ -1,7 +1,5 @@
 # RGB to HEX Color
 
-[RGB to HEX Color App](https://saulgavrilov.github.io/rgb-to-hex-color/)
-
 > To Generate random color just click on "RGB to HEX Color"
 
 ### What does this RGB to Hex converter do?
